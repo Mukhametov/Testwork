@@ -1,12 +1,12 @@
 package ru.naobit.testwork;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class DigitRemember implements IRemember{
 
 	private int MAX_LENGTH = 100;
-	private List<Integer> list = new ArrayList<>(MAX_LENGTH);
+	private List<Integer> list = new LinkedList<>();
 	
 	@Override
 	public void remember(int digit) {
